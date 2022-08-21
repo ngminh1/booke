@@ -1,0 +1,39 @@
+/* reset css */
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://preview.colorlib.com/theme/booke/images/xpolygon.png.pagespeed.ic.nHRdkw8Vdv.webp);
+    background-position: -500px -1585px;
+    background-repeat: no-repeat;
+}
+
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --primary-color: #186cfa;
+    --border-color: #1c63fb;
+}
+
+::selection {
+    color: var(--white-color);
+    background-color: var(--black-color);
+}
+
+/* class css for js */
+.show {
+    display: block !important;
+}
+
+.active {
+    color: var(--primary-color) !important;
+}
